@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-32x32.png',
   organizationName: 'Deck', // Usually your GitHub org/user name.
   projectName: 'deck-doc', // Usually your repo name.
 
@@ -42,6 +42,8 @@ const config = {
         logo: {
           alt: 'DECK Logo',
           src: 'img/logo.png',
+          href: 'https://get-deck.com/',
+          target: '_self',
         },
         items: [
           {
