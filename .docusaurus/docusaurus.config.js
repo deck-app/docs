@@ -18,8 +18,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/kb/Projects/DECK/deck-doc/sidebars.js",
-          "editUrl": "https://github.com/sfx101/deck"
+          "sidebarPath": "/Users/kb/Projects/DECK/deck-doc/sidebars.js"
         },
         "blog": false,
         "theme": {
