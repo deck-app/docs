@@ -29,6 +29,7 @@ export default {
     ]
   ],
   "themeConfig": {
+    "autoCollapseSidebarCategories": true,
     "navbar": {
       "hideOnScroll": true,
       "logo": {
@@ -290,7 +291,6 @@ export default {
     },
     "metadata": [],
     "hideableSidebar": false,
-    "autoCollapseSidebarCategories": false,
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3

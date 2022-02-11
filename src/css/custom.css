@@ -13,7 +13,29 @@
   --ifm-color-primary-light: #6860e9;
   --ifm-color-primary-lighter: #746deb;
   --ifm-color-primary-lightest: #9a95f0;
-  --ifm-code-font-size: 95%;
+  /* --ifm-code-font-size: 95%; */
+  --ifm-code-font-size: 14px;
+  --ifm-spacing-horizontal: 2.25rem;
+  --ifm-spacing-vertical: 2.25rem;
+  --ifm-navbar-padding-horizontal: 2rem;
+  --ifm-navbar-height: 4.5rem;
+
+  --ifm-heading-color: #0F172A;
+    --ifm-font-color-base: rgb(15 23 42);
+    --ifm-color-danger: #de5063;
+    --ifm-badge-padding-vertical: 0.4rem;
+    --ifm-heading-font-weight: 600;
+    --ifm-navbar-item-padding-horizontal: 0.5rem;
+    --ifm-alert-padding-vertical: 1.25rem;
+    --ifm-alert-padding-horizontal: 1.5rem;
+    --ifm-blockquote-padding-horizontal: 1rem;
+    --ifm-blockquote-border-left-width: 3px;
+    --ifm-badge-padding-horizontal: 0.5rem;
+
+    --docusaurus-tag-list-border: var(--ifm-color-emphasis-300);
+    --collapse-button-bg-color-dark: #2e333a;
+    --doc-sidebar-width: 300px;
+    --doc-sidebar-hidden-width: 30px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -25,6 +47,10 @@ html[data-theme='dark'] {
   --ifm-color-primary-light: #6860e9;
   --ifm-color-primary-lighter: #746deb;
   --ifm-color-primary-lightest: #9a95f0;
+  --ifm-background-color:#0D1220;
+  --ifm-footer-background-color: #1E293B;
+  --ifm-heading-color: rgb(249 250 251);;
+  --ifm-font-color-base: rgb(249 250 251);;
 }
 
 .docusaurus-highlight-code-line {
@@ -40,4 +66,26 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
   background-color: rgb(51 65 85) !important;
+}
+
+html[data-theme='dark'] .navbar {
+  background: #1E293B;
+}
+
+.theme-doc-sidebar-item-category-level-1>.menu__list-item-collapsible .menu__link, .theme-doc-sidebar-item-link-level-1 .menu__link{
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 6px;
+}
+
+.menu__link {
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: flex-start;
+  min-height: 30px;
+  overflow-wrap: anywhere;
 }
