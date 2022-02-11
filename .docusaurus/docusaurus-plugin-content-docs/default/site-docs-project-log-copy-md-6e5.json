@@ -1,0 +1,26 @@
+{
+  "unversionedId": "project-log copy",
+  "id": "project-log copy",
+  "title": "Viewing project logs",
+  "description": "While developing, it’s crucial to view and understand application logs for many reasons, but the most important one is debugging.",
+  "source": "@site/docs/project-log copy.md",
+  "sourceDirName": ".",
+  "slug": "/project-log copy",
+  "permalink": "/docs/project-log copy",
+  "editUrl": "https://github.com/sfx101/deck/docs/project-log copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating a project",
+    "permalink": "/docs/creating-project"
+  },
+  "next": {
+    "title": "Viewing project logs",
+    "permalink": "/docs/project-log"
+  }
+}

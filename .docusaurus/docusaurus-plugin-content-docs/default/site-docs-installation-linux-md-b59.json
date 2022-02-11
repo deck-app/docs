@@ -1,0 +1,26 @@
+{
+  "unversionedId": "installation/linux",
+  "id": "installation/linux",
+  "title": "Ubuntu",
+  "description": "Install via terminal (recommended)",
+  "source": "@site/docs/installation/linux.md",
+  "sourceDirName": "installation",
+  "slug": "/installation/linux",
+  "permalink": "/docs/installation/linux",
+  "editUrl": "https://github.com/sfx101/deck/docs/installation/linux.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows",
+    "permalink": "/docs/installation/windows"
+  },
+  "next": {
+    "title": "Creating a project",
+    "permalink": "/docs/creating-project"
+  }
+}

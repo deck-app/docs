@@ -1,0 +1,26 @@
+{
+  "unversionedId": "creating-project",
+  "id": "creating-project",
+  "title": "Creating a project",
+  "description": "- To create your first development environment, click on the New Project button on the projects page.",
+  "source": "@site/docs/creating-project.md",
+  "sourceDirName": ".",
+  "slug": "/creating-project",
+  "permalink": "/docs/creating-project",
+  "editUrl": "https://github.com/sfx101/deck/docs/creating-project.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ubuntu",
+    "permalink": "/docs/installation/linux"
+  },
+  "next": {
+    "title": "Viewing project logs",
+    "permalink": "/docs/project-log"
+  }
+}

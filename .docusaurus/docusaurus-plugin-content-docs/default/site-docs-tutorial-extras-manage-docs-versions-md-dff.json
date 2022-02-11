@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Manually",
-    "permalink": "/docs/tutorial-basics/manually"
+    "title": "Ubuntu",
+    "permalink": "/docs/tutorial-basics/linux"
   },
   "next": {
     "title": "Translate your site",

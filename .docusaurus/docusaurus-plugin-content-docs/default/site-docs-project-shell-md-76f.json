@@ -1,0 +1,22 @@
+{
+  "unversionedId": "project-shell",
+  "id": "project-shell",
+  "title": "Accessing project shell",
+  "description": "While developing an application with PHP frameworks like Laravel or Symfony, it’s essential to access the shell environment.",
+  "source": "@site/docs/project-shell.md",
+  "sourceDirName": ".",
+  "slug": "/project-shell",
+  "permalink": "/docs/project-shell",
+  "editUrl": "https://github.com/sfx101/deck/docs/project-shell.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Viewing project logs",
+    "permalink": "/docs/project-log"
+  }
+}

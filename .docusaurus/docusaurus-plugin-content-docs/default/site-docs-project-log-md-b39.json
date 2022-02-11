@@ -1,0 +1,26 @@
+{
+  "unversionedId": "project-log",
+  "id": "project-log",
+  "title": "Viewing project logs",
+  "description": "While developing, it’s crucial to view and understand application logs for many reasons, but the most important one is debugging.",
+  "source": "@site/docs/project-log.md",
+  "sourceDirName": ".",
+  "slug": "/project-log",
+  "permalink": "/docs/project-log",
+  "editUrl": "https://github.com/sfx101/deck/docs/project-log.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating a project",
+    "permalink": "/docs/creating-project"
+  },
+  "next": {
+    "title": "Accessing project shell",
+    "permalink": "/docs/project-shell"
+  }
+}

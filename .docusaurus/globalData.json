@@ -11,38 +11,38 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "creating-project",
+              "path": "/docs/creating-project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation/linux",
+              "path": "/docs/installation/linux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation/macos",
+              "path": "/docs/installation/macos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation/windows",
+              "path": "/docs/installation/windows",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/linux",
-              "path": "/docs/tutorial-basics/linux",
+              "id": "project-log",
+              "path": "/docs/project-log",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/macos",
-              "path": "/docs/tutorial-basics/macos",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/manually",
-              "path": "/docs/tutorial-basics/manually",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/windows",
-              "path": "/docs/tutorial-basics/windows",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "project-shell",
+              "path": "/docs/project-shell",
               "sidebar": "tutorialSidebar"
             }
           ],

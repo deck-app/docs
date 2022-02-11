@@ -45,8 +45,32 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','fbe'),
+    component: ComponentCreator('/docs','5f6'),
     routes: [
+      {
+        path: '/docs/creating-project',
+        component: ComponentCreator('/docs/creating-project','d88'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/installation/linux',
+        component: ComponentCreator('/docs/installation/linux','c08'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/installation/macos',
+        component: ComponentCreator('/docs/installation/macos','b35'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/installation/windows',
+        component: ComponentCreator('/docs/installation/windows','c5b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
@@ -54,38 +78,14 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/linux',
-        component: ComponentCreator('/docs/tutorial-basics/linux','78a'),
+        path: '/docs/project-log',
+        component: ComponentCreator('/docs/project-log','9b1'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/macos',
-        component: ComponentCreator('/docs/tutorial-basics/macos','ac5'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/manually',
-        component: ComponentCreator('/docs/tutorial-basics/manually','f0f'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/windows',
-        component: ComponentCreator('/docs/tutorial-basics/windows','d2f'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','fdd'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site','2d7'),
+        path: '/docs/project-shell',
+        component: ComponentCreator('/docs/project-shell','513'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

@@ -23,92 +23,84 @@
           {
             "type": "link",
             "label": "macOS",
-            "href": "/docs/tutorial-basics/macos",
-            "docId": "tutorial-basics/macos"
+            "href": "/docs/installation/macos",
+            "docId": "installation/macos"
           },
           {
             "type": "link",
             "label": "Windows",
-            "href": "/docs/tutorial-basics/windows",
-            "docId": "tutorial-basics/windows"
+            "href": "/docs/installation/windows",
+            "docId": "installation/windows"
           },
           {
             "type": "link",
             "label": "Ubuntu",
-            "href": "/docs/tutorial-basics/linux",
-            "docId": "tutorial-basics/linux"
-          },
-          {
-            "type": "link",
-            "label": "Manually",
-            "href": "/docs/tutorial-basics/manually",
-            "docId": "tutorial-basics/manually"
+            "href": "/docs/installation/linux",
+            "docId": "installation/linux"
           }
         ]
       },
       {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
-          }
-        ]
+        "type": "link",
+        "label": "Creating a project",
+        "href": "/docs/creating-project",
+        "docId": "creating-project"
+      },
+      {
+        "type": "link",
+        "label": "Viewing project logs",
+        "href": "/docs/project-log",
+        "docId": "project-log"
+      },
+      {
+        "type": "link",
+        "label": "Accessing project shell",
+        "href": "/docs/project-shell",
+        "docId": "project-shell"
       }
     ]
   },
   "docs": {
+    "creating-project": {
+      "id": "creating-project",
+      "title": "Creating a project",
+      "description": "- To create your first development environment, click on the New Project button on the projects page.",
+      "sidebar": "tutorialSidebar"
+    },
+    "installation/linux": {
+      "id": "installation/linux",
+      "title": "Ubuntu",
+      "description": "Install via terminal (recommended)",
+      "sidebar": "tutorialSidebar"
+    },
+    "installation/macos": {
+      "id": "installation/macos",
+      "title": "macOS",
+      "description": "Installation on macOS (intel, apple M1 / silicon)",
+      "sidebar": "tutorialSidebar"
+    },
+    "installation/windows": {
+      "id": "installation/windows",
+      "title": "Windows",
+      "description": "Windows 10 & 11",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Getting Started",
       "description": "DECK is powerful and high performant local web development studio unlike any other",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/linux": {
-      "id": "tutorial-basics/linux",
-      "title": "Ubuntu",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+    "project-log": {
+      "id": "project-log",
+      "title": "Viewing project logs",
+      "description": "While developing, it’s crucial to view and understand application logs for many reasons, but the most important one is debugging.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/macos": {
-      "id": "tutorial-basics/macos",
-      "title": "macOS",
-      "description": "Installation on macOS (intel, apple M1 / silicon)",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/manually": {
-      "id": "tutorial-basics/manually",
-      "title": "Manually",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/windows": {
-      "id": "tutorial-basics/windows",
-      "title": "Windows",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+    "project-shell": {
+      "id": "project-shell",
+      "title": "Accessing project shell",
+      "description": "While developing an application with PHP frameworks like Laravel or Symfony, it’s essential to access the shell environment.",
       "sidebar": "tutorialSidebar"
     }
   }

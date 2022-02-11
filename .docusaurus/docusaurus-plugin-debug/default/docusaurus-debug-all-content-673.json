@@ -19,6 +19,110 @@
           "contentPathLocalized": "/Users/kb/Projects/DECK/deck-doc/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "creating-project",
+              "id": "creating-project",
+              "title": "Creating a project",
+              "description": "- To create your first development environment, click on the New Project button on the projects page.",
+              "source": "@site/docs/creating-project.md",
+              "sourceDirName": ".",
+              "slug": "/creating-project",
+              "permalink": "/docs/creating-project",
+              "editUrl": "https://github.com/sfx101/deck/docs/creating-project.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ubuntu",
+                "permalink": "/docs/installation/linux"
+              },
+              "next": {
+                "title": "Viewing project logs",
+                "permalink": "/docs/project-log"
+              }
+            },
+            {
+              "unversionedId": "installation/linux",
+              "id": "installation/linux",
+              "title": "Ubuntu",
+              "description": "Install via terminal (recommended)",
+              "source": "@site/docs/installation/linux.md",
+              "sourceDirName": "installation",
+              "slug": "/installation/linux",
+              "permalink": "/docs/installation/linux",
+              "editUrl": "https://github.com/sfx101/deck/docs/installation/linux.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Windows",
+                "permalink": "/docs/installation/windows"
+              },
+              "next": {
+                "title": "Creating a project",
+                "permalink": "/docs/creating-project"
+              }
+            },
+            {
+              "unversionedId": "installation/macos",
+              "id": "installation/macos",
+              "title": "macOS",
+              "description": "Installation on macOS (intel, apple M1 / silicon)",
+              "source": "@site/docs/installation/macos.md",
+              "sourceDirName": "installation",
+              "slug": "/installation/macos",
+              "permalink": "/docs/installation/macos",
+              "editUrl": "https://github.com/sfx101/deck/docs/installation/macos.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Windows",
+                "permalink": "/docs/installation/windows"
+              }
+            },
+            {
+              "unversionedId": "installation/windows",
+              "id": "installation/windows",
+              "title": "Windows",
+              "description": "Windows 10 & 11",
+              "source": "@site/docs/installation/windows.md",
+              "sourceDirName": "installation",
+              "slug": "/installation/windows",
+              "permalink": "/docs/installation/windows",
+              "editUrl": "https://github.com/sfx101/deck/docs/installation/windows.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "macOS",
+                "permalink": "/docs/installation/macos"
+              },
+              "next": {
+                "title": "Ubuntu",
+                "permalink": "/docs/installation/linux"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Getting Started",
@@ -37,71 +141,19 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "macOS",
-                "permalink": "/docs/tutorial-basics/macos"
+                "permalink": "/docs/installation/macos"
               }
             },
             {
-              "unversionedId": "tutorial-basics/linux",
-              "id": "tutorial-basics/linux",
-              "title": "Ubuntu",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/linux.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/linux",
-              "permalink": "/docs/tutorial-basics/linux",
-              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/linux.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Windows",
-                "permalink": "/docs/tutorial-basics/windows"
-              },
-              "next": {
-                "title": "Manually",
-                "permalink": "/docs/tutorial-basics/manually"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/macos",
-              "id": "tutorial-basics/macos",
-              "title": "macOS",
-              "description": "Installation on macOS (intel, apple M1 / silicon)",
-              "source": "@site/docs/tutorial-basics/macos.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/macos",
-              "permalink": "/docs/tutorial-basics/macos",
-              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/macos.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "Windows",
-                "permalink": "/docs/tutorial-basics/windows"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/manually",
-              "id": "tutorial-basics/manually",
-              "title": "Manually",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/manually.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/manually",
-              "permalink": "/docs/tutorial-basics/manually",
-              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/manually.mdx",
+              "unversionedId": "project-log",
+              "id": "project-log",
+              "title": "Viewing project logs",
+              "description": "While developing, it’s crucial to view and understand application logs for many reasons, but the most important one is debugging.",
+              "source": "@site/docs/project-log.md",
+              "sourceDirName": ".",
+              "slug": "/project-log",
+              "permalink": "/docs/project-log",
+              "editUrl": "https://github.com/sfx101/deck/docs/project-log.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -110,86 +162,34 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Ubuntu",
-                "permalink": "/docs/tutorial-basics/linux"
+                "title": "Creating a project",
+                "permalink": "/docs/creating-project"
               },
               "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Accessing project shell",
+                "permalink": "/docs/project-shell"
               }
             },
             {
-              "unversionedId": "tutorial-basics/windows",
-              "id": "tutorial-basics/windows",
-              "title": "Windows",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/windows.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/windows",
-              "permalink": "/docs/tutorial-basics/windows",
-              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/windows.md",
+              "unversionedId": "project-shell",
+              "id": "project-shell",
+              "title": "Accessing project shell",
+              "description": "While developing an application with PHP frameworks like Laravel or Symfony, it’s essential to access the shell environment.",
+              "source": "@site/docs/project-shell.md",
+              "sourceDirName": ".",
+              "slug": "/project-shell",
+              "permalink": "/docs/project-shell",
+              "editUrl": "https://github.com/sfx101/deck/docs/project-shell.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "macOS",
-                "permalink": "/docs/tutorial-basics/macos"
-              },
-              "next": {
-                "title": "Ubuntu",
-                "permalink": "/docs/tutorial-basics/linux"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manually",
-                "permalink": "/docs/tutorial-basics/manually"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Viewing project logs",
+                "permalink": "/docs/project-log"
               }
             }
           ],
@@ -207,37 +207,29 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/macos"
+                    "id": "installation/macos"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/windows"
+                    "id": "installation/windows"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/linux"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/manually"
+                    "id": "installation/linux"
                   }
                 ]
               },
               {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
-                  }
-                ]
+                "type": "doc",
+                "id": "creating-project"
+              },
+              {
+                "type": "doc",
+                "id": "project-log"
+              },
+              {
+                "type": "doc",
+                "id": "project-shell"
               }
             ]
           },

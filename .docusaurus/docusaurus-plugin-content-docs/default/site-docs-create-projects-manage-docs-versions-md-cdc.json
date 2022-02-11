@@ -1,0 +1,26 @@
+{
+  "unversionedId": "create-projects/manage-docs-versions",
+  "id": "create-projects/manage-docs-versions",
+  "title": "Creating a project",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/create-projects/manage-docs-versions.md",
+  "sourceDirName": "create-projects",
+  "slug": "/create-projects/manage-docs-versions",
+  "permalink": "/docs/create-projects/manage-docs-versions",
+  "editUrl": "https://github.com/sfx101/deck/docs/create-projects/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ubuntu",
+    "permalink": "/docs/installation/linux"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/create-projects/translate-your-site"
+  }
+}

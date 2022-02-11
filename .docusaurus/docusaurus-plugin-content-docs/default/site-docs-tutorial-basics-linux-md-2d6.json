@@ -2,7 +2,7 @@
   "unversionedId": "tutorial-basics/linux",
   "id": "tutorial-basics/linux",
   "title": "Ubuntu",
-  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "description": "Install via terminal (recommended)",
   "source": "@site/docs/tutorial-basics/linux.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/linux",
@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-basics/windows"
   },
   "next": {
-    "title": "Manually",
-    "permalink": "/docs/tutorial-basics/manually"
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
   }
 }

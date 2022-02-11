@@ -1,0 +1,22 @@
+{
+  "unversionedId": "create-projects/translate-your-site",
+  "id": "create-projects/translate-your-site",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/create-projects/translate-your-site.md",
+  "sourceDirName": "create-projects",
+  "slug": "/create-projects/translate-your-site",
+  "permalink": "/docs/create-projects/translate-your-site",
+  "editUrl": "https://github.com/sfx101/deck/docs/create-projects/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating a project",
+    "permalink": "/docs/create-projects/creating-project"
+  }
+}

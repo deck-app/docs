@@ -1,0 +1,26 @@
+{
+  "unversionedId": "installation/macos",
+  "id": "installation/macos",
+  "title": "macOS",
+  "description": "Installation on macOS (intel, apple M1 / silicon)",
+  "source": "@site/docs/installation/macos.md",
+  "sourceDirName": "installation",
+  "slug": "/installation/macos",
+  "permalink": "/docs/installation/macos",
+  "editUrl": "https://github.com/sfx101/deck/docs/installation/macos.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Windows",
+    "permalink": "/docs/installation/windows"
+  }
+}
