@@ -9,7 +9,7 @@ const config = {
   title: 'DECK',
   tagline: 'Modern & extendable local web development studio',
   url: 'https://get-deck.com',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-32x32.png',
