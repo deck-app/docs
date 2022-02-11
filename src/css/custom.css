@@ -15,6 +15,8 @@
   --ifm-color-primary-lightest: #9a95f0;
   /* --ifm-code-font-size: 95%; */
   --ifm-code-font-size: 14px;
+  --ifm-h1-font-size: 2rem;
+
   --ifm-spacing-horizontal: 2.25rem;
   --ifm-spacing-vertical: 2.25rem;
   --ifm-navbar-padding-horizontal: 2rem;
@@ -83,9 +85,57 @@ html[data-theme='dark'] .navbar {
 
 .menu__link {
   align-items: center;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 600;
   justify-content: flex-start;
   min-height: 30px;
   overflow-wrap: anywhere;
+}
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+  margin-bottom: calc( var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading) );
+}
+
+@media screen and (min-width: 966px) {
+.main-wrapper.docs-wrapper.docs-doc-page{
+  padding: 1rem;
+}
+}
+
+@media screen and (max-width: 966px) {
+  .main-wrapper.docs-wrapper.docs-doc-page {
+    padding: 0rem;
+  }
+}
+
+.theme-doc-sidebar-item-category-level-1>.menu__list-item-collapsible .menu__link:after {
+  background: #2c1338;
+  border-radius: 2px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: 8px;
+  min-width: unset;
+  opacity: 1;
+  transition-property: all;
+  width: 10px;
+}
+.theme-doc-sidebar-item-category-level-1>.menu__list-item-collapsible:before {
+  background: #747b95;
+  border-radius: 2px;
+  content: "";
+  height: 2px;
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+}
+
+.menu__list-item--collapsed.theme-doc-sidebar-item-category-level-1>.menu__list-item-collapsible .menu__link:after {
+  background: #747b95;
+}
+
+.details_2Ziz[data-collapsed=false].isBrowser_2j9b>summary:before, .details_2Ziz[open]:not(.isBrowser_2j9b)>summary:before, .menu__list-item--collapsed .menu__caret:before, .menu__list-item--collapsed .menu__link--sublist:after {
+  transform: rotate(90deg);
 }
