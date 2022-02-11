@@ -1,0 +1,115 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Getting Started",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Installation",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "macOS",
+            "href": "/docs/tutorial-basics/macos",
+            "docId": "tutorial-basics/macos"
+          },
+          {
+            "type": "link",
+            "label": "Windows",
+            "href": "/docs/tutorial-basics/windows",
+            "docId": "tutorial-basics/windows"
+          },
+          {
+            "type": "link",
+            "label": "Ubuntu",
+            "href": "/docs/tutorial-basics/linux",
+            "docId": "tutorial-basics/linux"
+          },
+          {
+            "type": "link",
+            "label": "Manually",
+            "href": "/docs/tutorial-basics/manually",
+            "docId": "tutorial-basics/manually"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/docs/tutorial-extras/manage-docs-versions",
+            "docId": "tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/docs/tutorial-extras/translate-your-site",
+            "docId": "tutorial-extras/translate-your-site"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Getting Started",
+      "description": "DECK is powerful and high performant local web development studio unlike any other",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/linux": {
+      "id": "tutorial-basics/linux",
+      "title": "Ubuntu",
+      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/macos": {
+      "id": "tutorial-basics/macos",
+      "title": "macOS",
+      "description": "Installation on macOS (intel, apple M1 / silicon)",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/manually": {
+      "id": "tutorial-basics/manually",
+      "title": "Manually",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/windows": {
+      "id": "tutorial-basics/windows",
+      "title": "Windows",
+      "description": "Documents are groups of pages connected through:",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/manage-docs-versions": {
+      "id": "tutorial-extras/manage-docs-versions",
+      "title": "Manage Docs Versions",
+      "description": "Docusaurus can manage multiple versions of your docs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/translate-your-site": {
+      "id": "tutorial-extras/translate-your-site",
+      "title": "Translate your site",
+      "description": "Let's translate docs/intro.md to French.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

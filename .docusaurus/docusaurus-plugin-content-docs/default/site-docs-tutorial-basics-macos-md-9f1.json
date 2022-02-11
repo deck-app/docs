@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/macos",
+  "id": "tutorial-basics/macos",
+  "title": "macOS",
+  "description": "Installation on macOS (intel, apple M1 / silicon)",
+  "source": "@site/docs/tutorial-basics/macos.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/macos",
+  "permalink": "/docs/tutorial-basics/macos",
+  "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/macos.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Windows",
+    "permalink": "/docs/tutorial-basics/windows"
+  }
+}

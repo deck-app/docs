@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/manually",
+  "id": "tutorial-basics/manually",
+  "title": "Manually",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/tutorial-basics/manually.mdx",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/manually",
+  "permalink": "/docs/tutorial-basics/manually",
+  "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/manually.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ubuntu",
+    "permalink": "/docs/tutorial-basics/linux"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  }
+}

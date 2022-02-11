@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/linux",
+  "id": "tutorial-basics/linux",
+  "title": "Ubuntu",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "source": "@site/docs/tutorial-basics/linux.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/linux",
+  "permalink": "/docs/tutorial-basics/linux",
+  "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/linux.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows",
+    "permalink": "/docs/tutorial-basics/windows"
+  },
+  "next": {
+    "title": "Manually",
+    "permalink": "/docs/tutorial-basics/manually"
+  }
+}

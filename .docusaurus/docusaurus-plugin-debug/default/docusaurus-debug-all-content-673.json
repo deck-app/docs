@@ -1,0 +1,275 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/sfx101/deck/docs",
+          "versionEditUrlLocalized": "https://github.com/sfx101/deck/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/kb/Projects/DECK/deck-doc/sidebars.js",
+          "contentPath": "/Users/kb/Projects/DECK/deck-doc/docs",
+          "contentPathLocalized": "/Users/kb/Projects/DECK/deck-doc/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Getting Started",
+              "description": "DECK is powerful and high performant local web development studio unlike any other",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "editUrl": "https://github.com/sfx101/deck/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "macOS",
+                "permalink": "/docs/tutorial-basics/macos"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/linux",
+              "id": "tutorial-basics/linux",
+              "title": "Ubuntu",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/docs/tutorial-basics/linux.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/linux",
+              "permalink": "/docs/tutorial-basics/linux",
+              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/linux.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Windows",
+                "permalink": "/docs/tutorial-basics/windows"
+              },
+              "next": {
+                "title": "Manually",
+                "permalink": "/docs/tutorial-basics/manually"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/macos",
+              "id": "tutorial-basics/macos",
+              "title": "macOS",
+              "description": "Installation on macOS (intel, apple M1 / silicon)",
+              "source": "@site/docs/tutorial-basics/macos.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/macos",
+              "permalink": "/docs/tutorial-basics/macos",
+              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/macos.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Windows",
+                "permalink": "/docs/tutorial-basics/windows"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/manually",
+              "id": "tutorial-basics/manually",
+              "title": "Manually",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/docs/tutorial-basics/manually.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/manually",
+              "permalink": "/docs/tutorial-basics/manually",
+              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/manually.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ubuntu",
+                "permalink": "/docs/tutorial-basics/linux"
+              },
+              "next": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/windows",
+              "id": "tutorial-basics/windows",
+              "title": "Windows",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/docs/tutorial-basics/windows.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/windows",
+              "permalink": "/docs/tutorial-basics/windows",
+              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-basics/windows.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "macOS",
+                "permalink": "/docs/tutorial-basics/macos"
+              },
+              "next": {
+                "title": "Ubuntu",
+                "permalink": "/docs/tutorial-basics/linux"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/manage-docs-versions",
+              "id": "tutorial-extras/manage-docs-versions",
+              "title": "Manage Docs Versions",
+              "description": "Docusaurus can manage multiple versions of your docs.",
+              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/manage-docs-versions",
+              "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-extras/manage-docs-versions.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manually",
+                "permalink": "/docs/tutorial-basics/manually"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/translate-your-site",
+              "id": "tutorial-extras/translate-your-site",
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/docs/tutorial-extras/translate-your-site.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/translate-your-site",
+              "permalink": "/docs/tutorial-extras/translate-your-site",
+              "editUrl": "https://github.com/sfx101/deck/docs/tutorial-extras/translate-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Installation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/macos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/windows"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/linux"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/manually"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Extras",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/manage-docs-versions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/translate-your-site"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "intro",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}
