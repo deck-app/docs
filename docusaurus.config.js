@@ -18,18 +18,17 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
-          // routeBasePath: '/',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
@@ -56,39 +55,7 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'light',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/sfx101/deck',
-              },
-            ],
-          },
-        ],
-        copyright: `© 2022 DECK - Modern & extendable local web development studio`,
-      },
+      footer: {},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
