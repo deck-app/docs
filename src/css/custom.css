@@ -97,18 +97,6 @@ html[data-theme='dark'] .navbar {
   margin-bottom: calc( var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading) );
 }
 
-@media screen and (min-width: 966px) {
-.main-wrapper.docs-wrapper.docs-doc-page{
-  padding: 1rem;
-}
-}
-
-@media screen and (max-width: 966px) {
-  .main-wrapper.docs-wrapper.docs-doc-page {
-    padding: 0rem;
-  }
-}
-
 .theme-doc-sidebar-item-category-level-1>.menu__list-item-collapsible .menu__link:after {
   background: #2c1338;
   border-radius: 2px;
@@ -138,4 +126,20 @@ html[data-theme='dark'] .navbar {
 
 .details_2Ziz[data-collapsed=false].isBrowser_2j9b>summary:before, .details_2Ziz[open]:not(.isBrowser_2j9b)>summary:before, .menu__list-item--collapsed .menu__caret:before, .menu__list-item--collapsed .menu__link--sublist:after {
   transform: rotate(90deg);
+}
+
+.footer {
+  display: none;
+}
+
+@media screen and (min-width: 966px) {
+.main-wrapper.docs-wrapper.docs-doc-page{
+  padding: 1rem;
+}
+}
+
+@media screen and (max-width: 966px) {
+  .main-wrapper.docs-wrapper.docs-doc-page {
+    padding: 0rem;
+  }
 }
